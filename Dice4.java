@@ -44,9 +44,12 @@ public class Dice4 {
     }
     
     
-    public void runTest12In24Rolls(int howMany)
-    {
-          //your code here    
+    public void runTest12In24Rolls(int howMany){
+        int counter = 0;
+        while(counter < 2){
+            this.roll();
+            if(die1 ==6)
+        }
     }
     
     
